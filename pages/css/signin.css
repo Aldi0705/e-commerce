@@ -1,0 +1,50 @@
+.main-content {
+    border-radius: 8px;
+    display: flex;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.email{
+    width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.btn{
+    border-radius: 18px;
+    padding: 10px;
+    width: 121px;
+    margin-top: 30px;
+    background-color: #fca311;
+    display: inline-block;
+    border-style: none;
+}
+/* .image-container {
+    position: relative;image.png
+    margin-top: 2rem;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    overflow: hidden;
+    rotate: y -180deg;
+} */
+
+.img-content{
+    height: 730px;
+    width: 50%;
+    object-fit: cover;
+}
